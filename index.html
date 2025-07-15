@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Labubu - Where Style Meets Character</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <h2>LABUBU</h2>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#hero" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#collection" class="nav-link">Collection</a></li>
+          <li><a href="#features" class="nav-link">Features</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="hero-background">
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="hero-content">
+        <h1 class="hero-title">Labubu: Where Style Meets Character</h1>
+        <p class="hero-subtitle">
+          Unleashing modern fashion with a playful twist.
+        </p>
+        <button class="cta-button" onclick="smoothScroll('#about')">
+          Discover More
+          <i class="fas fa-arrow-down"></i>
+        </button>
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- About Labubu Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-image">
+            <img
+              src="assets/images/labubu-portrait.webp"
+              alt="Labubu Portrait"
+              class="portrait-image"
+            />
+          </div>
+          <div class="about-text">
+            <h2 class="section-title">Meet Labubu</h2>
+            <p class="about-description">
+              Born from the intersection of contemporary art and street culture,
+              Labubu represents the new generation of fashion-forward icons.
+              With an eye for detail and a passion for innovative design, Labubu
+              transforms everyday moments into extraordinary style statements.
+            </p>
+            <p class="about-description">
+              Each piece in our collection tells a story of creativity,
+              sustainability, and bold self-expression. We believe fashion
+              should be both beautiful and meaningful, creating connections
+              between art, culture, and personal identity.
+            </p>
+            <div class="about-stats">
+              <div class="stat">
+                <h3>100K+</h3>
+                <p>Style Enthusiasts</p>
+              </div>
+              <div class="stat">
+                <h3>50+</h3>
+                <p>Exclusive Drops</p>
+              </div>
+              <div class="stat">
+                <h3>98%</h3>
+                <p>Satisfaction Rate</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest Collection Section -->
+    <section id="collection" class="collection">
+      <div class="container">
+        <h2 class="section-title">Latest Collection</h2>
+        <p class="section-subtitle">
+          Discover our newest fashion-forward pieces
+        </p>
+
+        <div class="collection-grid">
+          <div class="collection-item" data-collection="urban-dreams">
+            <div class="item-image">
+              <img
+                src="assets/images/mega-labubu.jpg"
+                alt="Mega Labubu Collection"
+                class="collection-image"
+              />
+              <div class="item-overlay">
+                <h3>MEGA LABUBU TEC 1000%</h3>
+                <p>"All About Us"</p>
+                <button
+                  class="view-details"
+                  onclick="openModal('urban-dreams')"
+                >
+                  View Details
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="collection-item" data-collection="minimalist-chic">
+            <div class="item-image">
+              <img
+                src="assets/images/labubu x pronounce.jpg"
+                alt="Labubu x Pronounce Collection"
+                class="collection-image"
+              />
+              <div class="item-overlay">
+                <h3>LABUBU × PRONOUNCE</h3>
+                <p>BE FANCY NOW</p>
+                <button
+                  class="view-details"
+                  onclick="openModal('minimalist-chic')"
+                >
+                  View Details
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="collection-item" data-collection="avant-garde">
+            <div class="item-image">
+              <img
+                src="assets/images/labubu-earphone.jpg"
+                alt="Labubu Earphone Collection"
+                class="collection-image"
+              />
+              <div class="item-overlay">
+                <h3>LABUBU Originals accessories</h3>
+                <p>Brown Silicone Earphone Bag</p>
+                <button class="view-details" onclick="openModal('avant-garde')">
+                  View Details
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="collection-item" data-collection="eco-luxe">
+            <div class="item-image">
+              <img
+                src="assets/images/labubu-time.jpg"
+                alt="Labubu Time Collection"
+                class="collection-image"
+              />
+              <div class="item-overlay">
+                <h3>LABUBU “Time to Chill”</h3>
+                <p>Vinyl Plush Doll</p>
+                <button class="view-details" onclick="openModal('eco-luxe')">
+                  View Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Style Features Section -->
+    <section id="features" class="features">
+      <div class="container">
+        <h2 class="section-title">Style Features</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-seedling"></i>
+            </div>
+            <h3>Eco-Friendly Fabrics</h3>
+            <p>
+              Sustainably sourced materials that respect both style and
+              environment
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-street-view"></i>
+            </div>
+            <h3>Streetwear Influence</h3>
+            <p>Urban culture meets high fashion in every design element</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-gem"></i>
+            </div>
+            <h3>Limited Drops</h3>
+            <p>Exclusive releases that make each piece a collector's item</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-palette"></i>
+            </div>
+            <h3>Character Meets Couture</h3>
+            <p>Playful personality expressed through sophisticated design</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Join the Movement Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="contact-content">
+          <h2 class="section-title">Join the Movement</h2>
+          <p class="section-subtitle">
+            Be the first to know about new drops and exclusive events
+          </p>
+
+          <form class="newsletter-form" id="newsletterForm">
+            <div class="form-group">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
+              <button type="submit" class="submit-btn">
+                <span>Subscribe</span>
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </div>
+            <div class="form-message" id="formMessage"></div>
+          </form>
+
+          <div class="social-section">
+            <h3>Follow the Fashion Trail</h3>
+            <div class="social-links">
+              <a href="#" class="social-link">
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+              </a>
+              <a href="#" class="social-link">
+                <i class="fab fa-twitter"></i>
+                <span>Twitter</span>
+              </a>
+              <a href="#" class="social-link">
+                <i class="fab fa-facebook"></i>
+                <span>Facebook</span>
+              </a>
+              <a href="#" class="social-link">
+                <i class="fab fa-tiktok"></i>
+                <span>TikTok</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h3>LABUBU</h3>
+            <p>Where Style Meets Character</p>
+          </div>
+
+          <div class="footer-links">
+            <div class="link-group">
+              <h4>Shop</h4>
+              <a href="#">New Arrivals</a>
+              <a href="#">Collections</a>
+              <a href="#">Sale</a>
+            </div>
+
+            <div class="link-group">
+              <h4>About</h4>
+              <a href="#">Our Story</a>
+              <a href="#">Sustainability</a>
+              <a href="#">Press</a>
+            </div>
+
+            <div class="link-group">
+              <h4>Support</h4>
+              <a href="#">Contact</a>
+              <a href="#">Size Guide</a>
+              <a href="#">Returns</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2024 Labubu Fashion. All rights reserved.</p>
+          <p>Made with ❤️ for fashion enthusiasts</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal for Collection Details -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div id="modal-body">
+          <!-- Modal content will be dynamically inserted -->
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
