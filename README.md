@@ -67,7 +67,7 @@ Labubu-Web/
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/labubu-web.git
+   git clone https://github.com/invesigator/Labubu-Intro.git
    cd labubu-web
    ```
 
