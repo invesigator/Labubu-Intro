@@ -2,6 +2,7 @@
 
 A modern, responsive fashion brand website showcasing the Labubu collection with contemporary design and interactive features.
 
+<img width="1919" height="866" alt="image" src="https://github.com/user-attachments/assets/f17942b7-67e5-4faf-b016-a43e65920e00" />
 ![Labubu Website Preview](assets/images/labubu-portrait.webp)
 
 ## 🌟 Overview
@@ -73,19 +74,6 @@ Labubu-Web/
 2. **Open the project**:
 
    - For basic viewing: Simply open `index.html` in your web browser
-   - For development: Use a local server like Live Server in VS Code or Python's built-in server:
-
-     ```bash
-     # Python 3
-     python -m http.server 8000
-
-     # Python 2
-     python -m SimpleHTTPServer 8000
-     ```
-
-3. **Access the website**:
-   - Direct file: `file:///path/to/your/project/index.html`
-   - Local server: `http://localhost:8000`
 
 ## 📱 Features Overview
 
@@ -125,6 +113,17 @@ Labubu-Web/
 - Consistent branding
 - External link handling
 
+## Demo with Screenshot
+### Landing Page
+<img width="1919" height="866" alt="image" src="https://github.com/user-attachments/assets/f17942b7-67e5-4faf-b016-a43e65920e00" />
+<img width="1919" height="860" alt="image" src="https://github.com/user-attachments/assets/e9e435cd-0a7c-40b8-a483-824ecf62d2d4" />
+<img width="1919" height="858" alt="image" src="https://github.com/user-attachments/assets/847cf9ff-38c6-41d2-8a1b-3687838c2f4b" />
+<img width="1919" height="867" alt="image" src="https://github.com/user-attachments/assets/8220b028-ea9b-4cb1-b1b3-857a970cf000" />
+<img width="1919" height="864" alt="image" src="https://github.com/user-attachments/assets/ad0f4e72-bd63-4413-801b-d9a12bd3a20b" />
+<img width="1919" height="715" alt="image" src="https://github.com/user-attachments/assets/37ba02c9-eaf7-4223-9153-f5be77882a78" />
+<img width="1919" height="431" alt="image" src="https://github.com/user-attachments/assets/d3e77608-411b-4c83-9086-ebdbd0afe438" />
+
+
 ## 🎯 Browser Support
 
 - Chrome 60+
@@ -133,57 +132,6 @@ Labubu-Web/
 - Edge 79+
 - Mobile browsers (iOS Safari, Chrome Mobile)
 
-## 📈 Performance Features
-
-- **Optimized Images**: WebP format support with fallbacks
-- **CSS Variables**: Efficient color and spacing management
-- **Minimal Dependencies**: Only essential external resources
-- **Semantic HTML**: Better SEO and accessibility
-- **Progressive Enhancement**: Core functionality works without JavaScript
-
-## 🔧 Customization
-
-### Colors
-
-Edit the CSS variables in `css/style.css`:
-
-```css
-:root {
-  --primary-bg: #fefefe;
-  --accent-color: #d4a574;
-  --text-primary: #2c2c2c;
-  /* Add your custom colors */
-}
-```
-
-### Content
-
-Update the content in `index.html`:
-
-- Hero section messaging
-- About section text
-- Collection items
-- Contact information
-
-### Images
-
-Replace images in `assets/images/` with your own:
-
-- Maintain aspect ratios for best results
-- Use WebP format for better performance
-- Include alt text for accessibility
-
-## 🤝 Contributing
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
@@ -191,14 +139,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Google Fonts for typography
 - Inspiration from modern fashion brand websites
 - The Labubu character and brand imagery
-
-## 📞 Contact
-
-For questions or suggestions, feel free to reach out:
-
-- Email: your.email@example.com
-- Website: [Your Portfolio](https://yourwebsite.com)
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
 
 ---
 
